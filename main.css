@@ -1,0 +1,67 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #10151A;
+}
+
+
+
+header {
+    background-color: #10151A;
+    padding: 15px 0px;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pink {
+    color: rgb(255, 255, 255);
+}
+
+.goose {
+    color: #e84ac6;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: pink;
+}
+
+.login {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
